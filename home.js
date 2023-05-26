@@ -153,7 +153,9 @@ console.log(title)
 
 //CODE HERE
 
-let desc = deals[1].desc.replace(`March` , `April`)
+let desc = deals[1].desc.replace(`March` , `April`).trim()
+
+
 
 
 console.log(desc)
