@@ -132,7 +132,9 @@ const deals = [
 
 //CODE HERE
 
-deals.title[0].replace(`15%`, `10%`)
+let discount = deals[0]
+
+discount.title = `10% Off!`
 
 console.log(deals)
 
@@ -151,7 +153,4 @@ console.log(deals)
 
 //CODE HERE
 
-deals.desc[1].replace(`March`, `April`)
-
-console.log(deals)
 
