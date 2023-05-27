@@ -254,6 +254,6 @@ function filterByProperty (property, number, type){
 
 //CODE HERE
 
-filterByProperty(`rating`, 6, `above`)
+// filterByProperty(`rating`, 6, `above`)
 
-console.log(filteredArr)
+// console.log(filteredArr)
